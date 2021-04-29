@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href=./css/style.css></link>
+    <title>Codificar</title>
+</head>
+<body>
+ <header>Projeto codificador</header>
+ <div class="escolha1">   
+ <label for="escolher">Coloque aqui sua mensagem:</label>
+    <textarea name="" id="texto" cols="80" rows="5"></textarea>
+    <br>
+<select id="escolhaCrip">
+        <label for="">Escolha uma opção</label>
+        <option value="selecione" disabled selected>Selecione</option>
+        <option id="cifraDeCesar" value="cifradecesar">Cifra de Cesar</option>
+        <option id="base64" value="base64">Base 64</option>
+</select>
+    <br>
+    <div class="escolha">        
+    <label for="">Escolha uma opção</label>
+            <input type="radio" name="codificar" id="codificar">
+            <label for="codificar">Codificar</label>
+            <input type="radio" name="codificar" id="decodificar">
+            <label for="decodificar">Decodificar</label>
+    </div>   
+    <input type="number" id="chave">
+     
+    <br>    
+        <button id="enviar">Enviar</button>
+    <br>
+    <label for="escolher">Aqui está o seu resultado:</label>
+    <textarea name="" id="texto2" cols="80" rows="5"></textarea>
+    </div>    
+    <script src="./js/javascript.js"></script>
+</body>
+</html>
